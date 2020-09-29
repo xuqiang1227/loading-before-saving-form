@@ -50,7 +50,7 @@ When the form is saved, wait for some events that have not yet been loaded. For 
 
    await request('....'); // upload file
 
-   option.status = true;
+   option.status = false;
    setLoadingStatus(option);
  }
 
